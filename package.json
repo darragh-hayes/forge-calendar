@@ -1,6 +1,6 @@
 {
   "name": "progress-calendar",
-  "version": "0.0.1",
+  "version": "0.2.1",
   "description": "backend for progress backend",
   "main": "lib/calendar.js",
   "scripts": {
