@@ -1,8 +1,8 @@
-var config = require('./config')
-var seneca = require('seneca')();
+const Config = require('./config')
+const Seneca = require('seneca')();
 
-seneca.use('mongo-store', config.mongo);
+Seneca.use('mongo-store', Config.mongo);
 
-seneca.use(require('./lib/calendar'));
+Seneca.use(require('./lib/calendar'));
 
-seneca.listen(config.service);
+Seneca.listen(Config.service);
