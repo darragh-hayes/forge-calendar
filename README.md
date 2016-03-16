@@ -1,2 +1,2 @@
-# progress-calendar
-Calendar service for progress backend
+# forge-calendar
+Calendar service for [forge](https://github.com/darragh-hayes/forge-app)
